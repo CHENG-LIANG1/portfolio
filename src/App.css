@@ -1,4 +1,8 @@
 .App {
   min-height: 100vh;
-  background-image: radial-gradient( circle farthest-corner at 6.6% 12%,  rgba(64,0,126,1) 20.8%, rgba(0,255,160,1) 100.2% );}
+  background-image: radial-gradient( circle farthest-corner at 6.6% 12%,  rgba(64,0,126,1) 20.8%, rgba(0,255,160,1) 100.2% );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
