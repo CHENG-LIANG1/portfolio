@@ -1,0 +1,61 @@
+.cards {
+    margin-top: 10%;
+    width: 70% !important;
+
+}
+
+.card {
+    margin-bottom: 20px !important;
+    border-radius: 20px !important;
+}
+
+.title {
+    text-align: center;
+    color: blue;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+.subtitle {
+    text-align: center;
+    color: gray;
+    font-size: 15px !important;
+    margin-top: 10px !important;
+}
+
+.header{
+    text-align: center !important;
+}
+
+.logox {
+    margin-top: 10px;
+    border-radius: 50% !important;    
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+.badges {
+    display: flex;
+    justify-content: space-around;
+}
+
+.badges li {
+    list-style: none;
+}
+
+
+
+.carousel {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+}
