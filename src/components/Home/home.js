@@ -6,8 +6,7 @@ function Home(){
 
     return(
         <div className='app'>
-            <div className='portfolio'>
-            Portfolio
+            <div className='portfolio'>Portfolio
             </div>
         </div>
     )
