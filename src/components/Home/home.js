@@ -12,6 +12,7 @@ function Home(){
                 <div className='intro-text'>and motion graphics through storytelling.</div>
                 <div className='intro-button'></div>
             </div>
+            
         </div>
     )
 
