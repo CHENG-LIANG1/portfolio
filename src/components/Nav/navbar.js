@@ -1,26 +1,28 @@
-import React from "react";
+import {React, useState, useEffect} from "react";
 import { Navbar } from 'react-bootstrap';
 import { NavLink } from "react-router-dom";
 import "./nav.css"
 
-function NavigationBar(){
+function NavigationBar(props){
+
 
   return(
   <div className="navi" >
 
-    <Navbar collapseOnSelect expand="lg"  variant="dark" >
-      <Navbar.Brand className="logo" href="#home"> 
-        Huanyi
-      </Navbar.Brand>
-      <Navbar.Toggle className="ham" aria-controls="responsive-navbar-nav" />
+    
+    <Navbar className="nav-bar" collapseOnSelect expand="lg"  variant="dark" >
       <Navbar.Collapse id="responsive-navbar-nav">
         <ul className="links">
+          <li className="nav-link"><a href="/">Projects</a></li>
+          <li className="nav-link"><a href="/detail">About me</a></li>
+          <li className="nav-link"><a href="#">CV</a></li>
         </ul>
-
       </Navbar.Collapse>
     </Navbar>
     
-    </div>)
+    </div>
+    
+    )
 }
 
 export default NavigationBar

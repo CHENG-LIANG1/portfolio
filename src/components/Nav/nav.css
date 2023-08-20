@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Road+Rage&family=Rubik:ital,wght@1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat&display=swap');
 
 .navi {
     width: 100%;
-    
-    
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: end;
+    padding: 2rem;
+    height: 90px;
 }
-.navi Navbar {
-    background-image: radial-gradient( circle farthest-corner at 6.6% 12%,  rgba(64,0,126,1) 20.8%, rgba(0,255,160,1) 100.2% );}
+
+.nav-bar {
+    width: 20%;
+}
 
 .logo {
     margin-left: 10%;
@@ -34,13 +39,10 @@
 }
 
 .links {
-    margin-top: 3%;
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
+    gap: 1rem;
 }
 
 .links li {
@@ -50,4 +52,18 @@
 
 .active {
     color: white;
+}
+
+.nav-link a {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-link a:hover {
+    color: #ed375a;
+}
+
+.active-link {
+    color: #ed375a;
+    font-weight: 600;
 }

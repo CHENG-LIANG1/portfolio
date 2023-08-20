@@ -27,3 +27,12 @@
     top: 0;
     z-index: -1;
 }
+
+a {
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: unset;
+}
