@@ -1,6 +1,5 @@
 import React from 'react'
 import "./home.css"
-
 function Home(){
 
     return(
@@ -11,8 +10,12 @@ function Home(){
                 <div className='intro-text'>about crafting captivating visual narratives </div>
                 <div className='intro-text'>and motion graphics through storytelling.</div>
                 <div className='intro-button'></div>
-            </div>
             
+                <button className="btn btn-2 hover-slide-right">
+                    <span>hover me</span>
+                </button>
+            </div>
+        
         </div>
     )
 

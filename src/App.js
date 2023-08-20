@@ -14,7 +14,7 @@ function App() {
 
     return (
         <div className="App">
-            <Particles options={particlesOptions} init={particlesInit}/>
+            {/* <Particles options={particlesOptions} init={particlesInit}/> */}
             <BrowserRouter>
                 <Routes>
                     <Route path="/"  element={<Home />} />
