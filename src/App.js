@@ -16,10 +16,6 @@ function App() {
         loadFull(main);
     }, [])
 
-    const setCurrentPage = (props) => {
-        console.log(props)
-    }
-
     return (
         <div className="App">
             <Particles options={particlesOptions} init={particlesInit}/>

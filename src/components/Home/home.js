@@ -1,6 +1,5 @@
 import React from 'react'
 import "./home.css"
-import NavigationBar from '../Nav/navbar'
 function Home(){
 
   return(
@@ -13,7 +12,7 @@ function Home(){
         <div className='intro-text'>and motion graphics through storytelling.</div>
     
         <button className="btn btn-2 hover-slide-right">
-            <span> <a className='intro-link' href='/project'>Get to know me</a></span>
+            <span className='intro-link'> Get to know me </span>
         </button>
       </div>
 

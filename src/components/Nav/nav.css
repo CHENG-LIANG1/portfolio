@@ -122,8 +122,11 @@
     background-color: #ed375a;
   }
   
+  .menu-icon {
+    display: none;
+  }
   
-  @media (max-width: 800px) {
+  @media (max-width: 600px) {
     .menu-icon {
       display: block;
       cursor: pointer;
