@@ -4,4 +4,22 @@
     margin: auto;
     font-size: 36px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.intro-text {
+    font-family: 'Lato', sans-serif; 
+    font-weight: normal;
+}
+
+.bold-text {
+    font-family: 'Lato', sans-serif; 
+    font-weight: 900;
+}
+
+.primary-text {
+    color: #ed375a;
 }

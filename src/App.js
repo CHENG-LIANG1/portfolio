@@ -1,21 +1,27 @@
+import React, { useCallback } from 'react';
+import Particles from "react-particles";
+import { loadFull } from "tsparticles";
+import logo from './logo.svg';
 import './App.css';
-import NavigationBar from './components/Nav/navbar';
+import particlesOptions from "./particles.json";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home/home';
+
 function App() {
-  return (
-    <div className="App">
-      
+    const particlesInit = useCallback(main => {
+        loadFull(main);
+    }, [])
 
-      <BrowserRouter>
-      {/* <NavigationBar /> */}
-        <Routes>
-          <Route path="/"  element={<Home />} />
-        </Routes>
-    </BrowserRouter>
-
-    </div>
-  );
+    return (
+        <div className="App">
+            <Particles options={particlesOptions} init={particlesInit}/>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/"  element={<Home />} />
+                </Routes>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;
