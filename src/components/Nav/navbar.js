@@ -13,6 +13,7 @@ function NavigationBar(props){
     <Navbar className="nav-bar" collapseOnSelect expand="lg"  variant="dark" >
       <Navbar.Collapse id="responsive-navbar-nav">
         <ul className="links">
+
           <li className="nav-link"><a href="/">Projects</a></li>
           <li className="nav-link"><a href="/detail">About me</a></li>
           <li className="nav-link"><a href="#">CV</a></li>

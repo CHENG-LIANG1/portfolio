@@ -3,10 +3,10 @@ import "./home.css"
 import NavigationBar from '../Nav/navbar'
 function Home(){
 
-    return(
+  return(
 
-        <>
-            <div className='portfolio'>
+    <div className='portfolio-container'>
+      <div className='portfolio'>
         <div className='bold-text'> Hi, <span className='primary-text'> I'm Jiurui </span></div>
         <div className='intro-text'>I am a Multimedia Designer passionate </div>
         <div className='intro-text'>about crafting captivating visual narratives </div>
@@ -15,10 +15,14 @@ function Home(){
         <button className="btn btn-2 hover-slide-right">
             <span> <a className='intro-link' href='/project'>Get to know me</a></span>
         </button>
-    </div>
-        </>
+      </div>
 
-    )
+      <div className='project-container'>
+        
+      </div>
+    </div>
+
+  )
 
 }
 
