@@ -19,28 +19,28 @@ const Navbar = () => {
         <rect
           id="Rectangle_3"
           data-name="Rectangle 3"
-          width="42"
-          height="4"
-          rx="2"
+          width="30"
+          height="3"
+          rx="1"
           transform="translate(304 47)"
           fill="#fff"
         />
         <rect
           id="Rectangle_5"
           data-name="Rectangle 5"
-          width="42"
-          height="4"
-          rx="2"
+          width="30"
+          height="3"
+          rx="1"
           transform="translate(304 67)"
           fill="#fff"
         />
         <rect
           id="Rectangle_4"
           data-name="Rectangle 4"
-          width="52"
-          height="4"
-          rx="2"
-          transform="translate(294 57)"
+          width="30"
+          height="3"
+          rx="1"
+          transform="translate(304 57)"
           fill="#fff"
         />
       </g>

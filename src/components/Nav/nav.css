@@ -126,28 +126,29 @@
     display: none;
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     .menu-icon {
       display: block;
       cursor: pointer;
+      z-index: 2;
     }
   
     .nav-elements {
       position: absolute;
       right: 0;
-      top: 60px;
+      top: 0px;
       background-color: #222;
       width: 0;
-      height: calc(100vh - 60px);
+      height: 100vh;
       transition: all 0.3s ease-in;
       overflow: hidden;
-      z-index: 99999999;
+      z-index: 1;
       border-radius: 10px;
     }
   
     .nav-elements.active {
       width: 270px;
-      padding: 2rem;
+      padding: 4rem 2rem 2rem 2rem;
     }
   
     .nav-elements ul {
