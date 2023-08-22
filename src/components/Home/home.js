@@ -9,6 +9,10 @@ import morningUrl from '../../assets/morning.jpg'
 import toyUrl from '../../assets/toy.jpg'
 import shoeUrl from '../../assets/reebok.jpg'
 import anotherUrl from '../../assets/正反打1比1.jpg'
+import youtubeIcon from '../../assets/ytb.png'
+import linkedInIcon from '../../assets/linkedin.png'
+import mediumIcon from '../../assets/medium.png'
+import behanceIcon from '../../assets/behance.png'
 import $ from 'jquery';
 function Home(){
 
@@ -59,7 +63,21 @@ function Home(){
 
       </div>
 
-      <div></div>
+      <div className={'footer-container'}>
+        <div className={'contact-footer'}>
+          <div className={'footer-text'}> Reach me at </div>
+          <div className={'email'}> jiurui123@gmail.com </div>
+          <div className={'footer-text'}> Online 24/7 </div>
+          <div className={'icon-container'}>
+            <div className={'icon-wrapper'}><img src={linkedInIcon}/></div>
+            <div className={'icon-wrapper'}><img src={youtubeIcon}/></div>
+            <div className={'icon-wrapper'}><img src={mediumIcon}/></div>
+            <div className={'icon-wrapper'}><img src={behanceIcon}/></div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
 
   )

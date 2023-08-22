@@ -236,3 +236,73 @@ body {
   }
 }
 
+.contact-footer {
+  text-align: left;
+  margin: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: start;
+  gap: 16px;
+}
+
+.footer-text {
+  font-weight: 300;
+}
+
+.email {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.icon-container img{
+  width: 48px;
+}
+
+
+.icon-wrapper {
+  background-color: #222;
+  border-radius: 12px;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon-wrapper:hover {
+  background-color: #ed375a;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 600px) {
+  .card-list {
+    width: 80vw;
+  }
+  .project-container {
+    width: unset;
+  }
+  .project-div {
+    width: 100%;
+    align-items: center;
+  }
+  .card-container img {
+    width: 100%;
+  }
+  .featured-title {
+    padding-left: 60px;
+  }
+  .App {
+    width: 100vw;
+  }
+}
