@@ -145,7 +145,7 @@ body {
     }
 
     .portfolio {
-      width: 90%;
+      width: 90vw;
     }
   }
 
@@ -170,7 +170,6 @@ body {
 
 .card-container img {
   width: 418px;
-  max-width: 500px;
   border-radius: 10px;
 }
 
@@ -232,7 +231,7 @@ body {
     width: 100%;
   }
   .card-container img {
-    width: 500px;
+    width: 100%
   }
 }
 
@@ -301,6 +300,7 @@ body {
   }
   .featured-title {
     padding-left: 60px;
+    width: 100vw;
   }
   .App {
     width: 100vw;
