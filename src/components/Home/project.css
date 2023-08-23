@@ -1,24 +1,84 @@
 
 .text-container {
-  margin: 4rem;
+  margin: 4rem 8rem 8rem 8rem;
 }
 
 .divider {
-  width: 100%;
+  width: calc(100% - 400px);
+  margin-left: 400px;
   background-color: #fff;
   height: 2px;
 }
 
 .project-subtitle {
   color: #fff;
+  margin-left: 400px;
   font-size: 16px;
   font-weight: 600;
   padding-top: 2rem;
 }
 
 .project-title {
-  padding-top: 2rem;
   font-size: 48px;
   font-weight: 900;
   color: #fff
+}
+
+.smaller-title {
+  font-size: 28px;
+  padding-left: 15%;
+}
+
+.project-paragraph {
+  color: #fff;
+  font-size: 20px;
+  line-height: 28px;
+  padding-left: 400px;
+  padding-bottom: 4rem;
+  width: calc(100% - 400px);
+}
+
+.title-container {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.paragraph-container {
+  padding-top: 2rem;
+
+}
+
+.project-bold-text {
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.project-text {
+  color: #fff;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.right-panel {
+  width: 300px;
+  margin: 8px;
+  text-align: right;
+}
+
+.heading {
+  font-weight: 800;
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.project-img {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 2rem;
 }
