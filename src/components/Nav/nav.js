@@ -1,12 +1,18 @@
 import React from "react";
 import { NavLink, BrowserRouter, Route, Switch} from "react-router-dom";
-
+import $ from "jquery";
+import Bus from "../../eventBus";
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = React.useState(false);
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
+
+  const scrollToFooter = () => {
+    Bus.emit('toFooter')
+  }
+
 
   const Hamburger = () => (
     <svg
@@ -59,11 +65,12 @@ const Navbar = () => {
           <ul className="links">
             <NavLink to="/">Projects</NavLink>
             <NavLink to="/detail">About me</NavLink>
-            <NavLink to="/blogs">CV</NavLink>
+            <a className={'contact-btn'} onClick={scrollToFooter}>Contact</a>
           </ul>
         </div>
       </div>
     </nav>
+
   );
 };
 

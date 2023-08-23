@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./home.css";
 import ProjectCard from "./projectCard";
 import animalUrl from '../../assets/animal.png'
@@ -14,12 +14,23 @@ import linkedInIcon from '../../assets/linkedin.png'
 import mediumIcon from '../../assets/medium.png'
 import behanceIcon from '../../assets/behance.png'
 import $ from 'jquery';
+import Bus from "../../eventBus";
 function Home(){
 
   const scrollToProjects = () => {
     let targetOffset = $('#projects').offset().top;
     $('html, body').animate({scrollTop: targetOffset}, 1000);
   }
+
+  useEffect(() => {
+
+    Bus.addListener('toFooter', (count)=> {
+      let targetOffset = $('#footer').offset().top;
+      $('html, body').animate({scrollTop: targetOffset}, 1000);
+    });
+
+  }, [])
+
 
   return(
 
@@ -41,7 +52,7 @@ function Home(){
         <div className={'project-div'} style={{display: 'flex', flexDirection: 'column', gap: 16, justifyContent: 'space-between',}}>
           <div className={'featured-title'}>Featured works</div>
           <div className={'card-list'}>
-            <ProjectCard image={animalUrl} title={'TASMANIAN DEVIL'} description={'Zoos Victoria endangered species motion graphic'}/>
+            <ProjectCard image={animalUrl} title={'TASMANIAN DEVIL'} description={'Zoos Victoria endangered species call to action motion graphic'}/>
             <ProjectCard image={appUrl} title={'iQingbaijiang 2023'} description={'A motion graphic video for the iQingbaijiang app update'}/>
           </div>
 
@@ -59,24 +70,43 @@ function Home(){
             <ProjectCard image={interviewUrl} title={'CULTROO'} description={'A graduation project documentary'}/>
             <ProjectCard image={anotherUrl} title={'DON’T TRY TO BUY ME OFF'} description={'A film dialogue parody'}/>
           </div>
-        </div>
 
-      </div>
+          <div className={'footer-container'} id={'footer'}>
+            <div className={'contact-footer'}>
+              <div className={'footer-text'}> Reach me at </div>
+              <div className={'email'}> jiurui123@gmail.com </div>
+              <div className={'footer-text'}> Please email me to view my CV </div>
+              <div className={'footer-text'}> I am always up for a cup of tea:) </div>
+              <div className={'icon-container'}>
+                <div className={'icon-wrapper'} onClick={() => {
+                  window.open('www.linkedin.com/in/久瑞-彭-1a3677160', "_blank")
+                }}><img src={linkedInIcon}/></div>
+                <div className={'icon-wrapper'} onClick={() => {
+                  window.open('https://www.youtube.com/channel/UCU7tx0T3R3lrP9rqioBTikg', "_blank")
+                }}><img src={youtubeIcon}/></div>
+                <div className={'icon-wrapper'} onClick={() => {
+                  window.open('https://medium.com/@JiuruiPeng', "_blank")
+                }}><img src={mediumIcon}/></div>
+                <div className={'icon-wrapper'} onClick={() => {
+                  window.open('https://www.behance.net/jiuruipeng1', "_blank")
+                }}><img src={behanceIcon}/></div>
+              </div>
+            </div>
 
-      <div className={'footer-container'}>
-        <div className={'contact-footer'}>
-          <div className={'footer-text'}> Reach me at </div>
-          <div className={'email'}> jiurui123@gmail.com </div>
-          <div className={'footer-text'}> Online 24/7 </div>
-          <div className={'icon-container'}>
-            <div className={'icon-wrapper'}><img src={linkedInIcon}/></div>
-            <div className={'icon-wrapper'}><img src={youtubeIcon}/></div>
-            <div className={'icon-wrapper'}><img src={mediumIcon}/></div>
-            <div className={'icon-wrapper'}><img src={behanceIcon}/></div>
           </div>
         </div>
 
+
+
       </div>
+
+
+
+      <hr />
+
+      <div className={'credit-container'}>I acknowledge the use of ChatGPT (https://chat.openai.com/) to refine my wording and grammar. The prompts used include:
+        proofread
+        check my grammar</div>
 
     </div>
 

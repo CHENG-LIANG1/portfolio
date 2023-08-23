@@ -1,0 +1,43 @@
+.about-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.about {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+.avatar img {
+  width: 300px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 50px 2px  #ed375a;
+}
+
+
+
+.about-text {
+  text-align: left;
+  line-height: 32px;
+}
+
+.about-me {
+  justify-content: center;
+}
+
+
+@media (max-width: 1200px) {
+  .about {
+    flex-direction: column;
+    padding-top: 8rem;
+    gap: 4rem;
+  }
+
+}

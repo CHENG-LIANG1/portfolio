@@ -38,6 +38,7 @@ body {
     font-family: 'Lato', sans-serif; 
     font-size: 48px;
     font-weight: 900;
+    line-height: 60px;
 }
 
 .primary-text {
@@ -237,7 +238,7 @@ body {
 
 .contact-footer {
   text-align: left;
-  margin: 8rem;
+  margin: 12rem 0 12rem 16px;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -280,7 +281,7 @@ body {
 .footer-container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 
@@ -305,4 +306,19 @@ body {
   .App {
     width: 100vw;
   }
+}
+
+.credit-container {
+  width: 100%;
+  padding: 1rem;
+  text-align: right;
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+}
+
+hr{
+  height: 1px;
+  background-color: #444;
+  border: none;
 }

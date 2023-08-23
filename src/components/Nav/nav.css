@@ -85,6 +85,8 @@
     top: 0;
     right: 0;
     padding: 2rem;
+    background-color: rgba(10, 10, 10, 0.2);
+    border-radius: 4px;
   }
   
   .menu-icon {
@@ -127,6 +129,11 @@
   }
   
   @media (max-width: 800px) {
+
+    .card-container:hover {
+      transform: unset;
+    }
+
     .menu-icon {
       display: block;
       cursor: pointer;
@@ -169,4 +176,7 @@
         padding: 0;
     }
   }
-  
+
+.contact-btn {
+  cursor: pointer;
+}
