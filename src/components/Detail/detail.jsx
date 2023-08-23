@@ -29,9 +29,8 @@ const Detail = () => {
       </div>
       <div className={'footer-container about-me'} id={'footer'}>
         <div className={'contact-footer'}>
-          <div className={'footer-text'}> Reach me at </div>
-          <div className={'email'}> jiurui123@gmail.com </div>
           <div className={'footer-text'}> Please email me to view my CV </div>
+          <div className={'email'}> JaneRayDesign@outlook.com </div>
           <div className={'footer-text'}> I am always up for a cup of tea:) </div>
           <div className={'icon-container'}>
             <div className={'icon-wrapper'}><img src={linkedInIcon}/></div>

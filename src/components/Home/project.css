@@ -1,0 +1,24 @@
+
+.text-container {
+  margin: 4rem;
+}
+
+.divider {
+  width: 100%;
+  background-color: #fff;
+  height: 2px;
+}
+
+.project-subtitle {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 2rem;
+}
+
+.project-title {
+  padding-top: 2rem;
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff
+}
