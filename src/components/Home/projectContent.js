@@ -6,7 +6,7 @@ import prUrl from "./images/pr.jpg";
 import aeUrl from "./images/ae.jpg";
 import aiUrl from "./images/ai.jpg";
 import c4dUrl from "./images/c4d.jpg";
-import scpUrl from './images/scp.jpg'
+import fcpUrl from './images/scp.jpg'
 import libPersona1 from "./images/图书馆pesona1.png";
 import libPersona2 from "./images/图书馆pesona2.png";
 import libMindMap from "./images/思维框架图.png";
@@ -38,8 +38,27 @@ import appFrame1 from './images/字幕帧1.png';
 import appFrame2 from './images/字幕帧2.png';
 import appBg1 from './images/环绕图.png';
 import appBg2 from './images/信息图.png';
+import toyMb from './images/玩具情绪板.png';
+import toyModel1 from './images/初始模型.png';
+import toyModel2 from './images/模型整改.png';
+import toyModel3 from './images/模型整改2.png';
+import toyPackage from './images/包装设计图.png';
+import toy2d from './images/2D动画.png';
+import shoeMb1 from './images/Snipaste_2023-08-20_23-34-55.png';
+import shoeMb2 from './images/Snipaste_2023-08-20_23-35-20.png';
+import shoe3 from './images/Snipaste_2023-08-20_23-33-05.png';
+import shoe4 from './images/Snipaste_2023-08-20_23-35-35.png';
+import shoe5 from './images/Snipaste_2023-08-21_22-39-42.png';
+import shoe6 from './images/Snipaste_2023-08-21_22-42-02.png';
+import shoe7 from './images/Snipaste_2023-08-21_22-42-15.png';
+import shoe8 from './images/球鞋16比9.jpg';
+import shoeSb from './images/球鞋故事板.png';
+import shoeStyle1 from './images/球鞋样式图1.png';
+import shoeStyle2 from './images/球鞋样式图2.png';
+import shoeStyle3 from './images/球鞋样式图3.png';
+import shoeStyle4 from './images/球鞋样式图4.png';
 
-export const libContent =  <div className={'text-container'}>
+export const libContent =  <div className={'text-container'} >
   <div className={'divider'}></div>
   <div className={'project-subtitle'}>Motion Graphic Design/Title Sequence Design/Creative Photography</div>
   <div className={'title-container'}>
@@ -89,7 +108,7 @@ export const libContent =  <div className={'text-container'}>
     <img src={psUrl}></img>
     <img src={prUrl}></img>
     <img src={aeUrl}></img>
-    <img src={scpUrl}></img>
+    <img src={fcpUrl}></img>
   </div>
 
   <div className={'paragraph-container'}>
@@ -235,7 +254,7 @@ export const libContent =  <div className={'text-container'}>
   <img src={libFont2} className={'project-img'} />
 
   <div className={'title-container'}>
-    <div className={'project-title smaller-title'}>Peer Feedback</div>
+    <div className={'project-title smaller-title'}>Feedback From Yun (Tutor)</div>
   </div>
   <div className={'paragraph-container'}>
     <div className={'project-paragraph'}>
@@ -546,6 +565,563 @@ export const appContent = <div className={'text-container'}>
       The project presented a short-term Motion Graphic (MG) challenge, placing a premium on an effective production strategy. To meet the project's demands, I embarked on a journey of experimentation, particularly focusing on vector illustration MG techniques. These techniques encompassed the application of visualizations, character integration, and the incorporation of pseudo-3D elements, all aimed at expediting the rendering of key visuals.
       <br />       <br />
       However, it's worth noting that the extended duration of the animation, spanning 2 minutes, resulted in varying levels of production precision across different segments. This divergence in quality was primarily attributed to the demanding schedule. It underscores the need for refinements in the subsequent phases of animation design to ensure a consistently high level of quality throughout the entire project.
+    </div>
+  </div>
+</div>
+
+export const zfContent = <div className={'text-container'}>
+  <div className={'divider'}></div>
+  <div className={'project-subtitle'}>Photomedia/Lighting/Dialogue</div>
+  <div className={'title-container'}>
+    <div className={'project-title'}>DON'T TRY TO BUY ME OFF: A Film Dialogue Parody </div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}>Project Duration</div>
+      <div className={'project-text'}>1 Month</div>
+    </div>
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-paragraph'}>DON'T TRY TO BUY ME OFF is a parody dialogue clip. This endeavour delved into interior lighting techniques while also exploring the application of shooting dialogue sequences from shot/reverse shot. The project's primary focus was to craft a visually engaging and dynamic conversation between characters, all while experimenting with unique lighting styles and cinematographic choices. </div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}> Clients </div>
+      <div className={'project-text'}>Monash University Masters Studio</div>
+    </div>
+  </div>
+  <YoutubeEmbed embedId="5iJrzzXz0Gk" />
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Task</div>
+      - Decide on the lighting style <br/> <br/>
+      - Plan the audio recording setup. Decide whether to use a shotgun mic and boom pole or 2 x wireless mic kits hidden on the actors. Ensure you have the Zoom H6 for audio recording and a clapper board for syncing audio and video.<br/> <br/>
+      - Decide on the overall look and feel of the scene, including any colour grading ideas or LUTs you want to apply during editing. <br/> <br/>
+      - Plan the shot composition for the scene, considering framing, angles, and camera movement. Use split edits (J cuts and L cuts) and include reaction shots in your planning. <br/> <br/>
+      <br/>
+    </div>
+  </div>
+
+
+  <div className={'heading'}>Tools</div>
+  <div className={'software-container'}>
+    <img src={prUrl}></img>
+    <img src={fcpUrl}></img>
+  </div>
+
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Reflection</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The project presented a short-term Motion Graphic (MG) challenge, placing a premium on an effective production strategy. To meet the project's demands, I embarked on a journey of experimentation, particularly focusing on vector illustration MG techniques. These techniques encompassed the application of visualizations, character integration, and the incorporation of pseudo-3D elements, all aimed at expediting the rendering of key visuals.
+      <br />       <br />
+      However, it's worth noting that the extended duration of the animation, spanning 2 minutes, resulted in varying levels of production precision across different segments. This divergence in quality was primarily attributed to the demanding schedule. It underscores the need for refinements in the subsequent phases of animation design to ensure a consistently high level of quality throughout the entire project.
+    </div>
+  </div>
+</div>
+
+export const interviewContent = <div className={'text-container'}>
+  <div className={'divider'}></div>
+  <div className={'project-subtitle'}>Photomedia/Documentary</div>
+  <div className={'title-container'}>
+    <div className={'project-title'}>CULTROO: A Graduation Project Documentary </div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}>Project Duration</div>
+      <div className={'project-text'}>1 Month</div>
+    </div>
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-paragraph'}>"CULTROO" is a documentary capturing interviews and insights from a student's final project journey. This short film provides a comprehensive look at the development of a software project, focusing on its innovative Augmented Reality (AR) features. The film employs basic medium and close-up camera shots, accompanied by outdoor audio recording techniques, to convey the project's story. </div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}> Clients </div>
+      <div className={'project-text'}>Monash University Masters Studio</div>
+      <div className={'project-text'}>MF Wang</div>
+    </div>
+  </div>
+  <YoutubeEmbed embedId="Q2EaFpdO6Iw" />
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Task</div>
+      - Choose an outdoor location that's quiet, not windy, and has an attractive background.<br/> <br/>
+      - Use at least two different shots: medium close-up and close-up.<br/> <br/>
+      - Follow the rule of thirds for framing.<br/> <br/>
+      - Plan 4-5 creative cutaway shots that complement your interview.<br/> <br/>
+      <br/>
+    </div>
+  </div>
+
+
+  <div className={'heading'}>Tools</div>
+  <div className={'software-container'}>
+    <img src={prUrl}></img>
+    <img src={fcpUrl}></img>
+  </div>
+
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Reflection</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The outdoor shooting experience for this project presented numerous challenges that pushed my filmmaking skills to the limit. In particular, finding an ideal location in Melbourne proved to be a daunting task. I settled on an isolated park to minimize disturbances, but even there, we couldn't entirely escape the sounds of nature, including persistent bird calls. Furthermore, the distant noise of passing trains and helicopters occasionally disrupted our audio recordings, necessitating multiple takes to ensure clarity.
+      <br/> <br/>
+      The project demanded meticulous attention to both lighting and framing simultaneously. Maintaining consistent lighting conditions was essential to convey a seamless sense of time within the frame. Simultaneously, I had to carefully position the interviewee to ensure the background remained consistent. Meeting all these outdoor requirements simultaneously was crucial for the shoot's success.
+      <br/> <br/>
+      Studio feedback highlighted some display glitches in the title font animation within the final cut, which I will address to enhance the project's visual quality. Additionally, adjustments in the soundtrack have been suggested, such as increasing the volume during the opening credits and reducing it beneath the human voice level during the interview segment. These enhancements will contribute to a more polished final product.
+    </div>
+  </div>
+</div>
+
+
+export const rangerContent = <div className={'text-container'}>
+  <div className={'divider'}></div>
+  <div className={'project-subtitle'}>Photomedias</div>
+  <div className={'title-container'}>
+    <div className={'project-title'}>RANGER: A Self-guided Morning Ritual Filming</div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}>Project Duration</div>
+      <div className={'project-text'}>1 Month</div>
+    </div>
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-paragraph'}>RANGER is a short film about a morning ritual that I directed myself. The short film introduces a fictional race driver who prepares himself before heading out the door, and the film devises a creative reversal plot.</div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}> Clients </div>
+      <div className={'project-text'}>Monash University Masters Studio</div>
+    </div>
+  </div>
+  <YoutubeEmbed embedId="l7uG9FwERUY" />
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Task</div>
+      -Select a specific ritual to portray (e.g., morning routine, preparing for a night out). <br /> <br />
+
+      -Select an appropriate instrumental soundtrack that complements the concept.<br /> <br />
+
+      -Introduce an unexpected reversal or twist in the storyline.
+      <br/>
+    </div>
+  </div>
+
+
+  <div className={'heading'}>Tools</div>
+  <div className={'software-container'}>
+    <img src={prUrl}></img>
+    <img src={fcpUrl}></img>
+  </div>
+
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Reflection</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      In retrospect, the project's reverse shot design was a notable success. Given the constraints imposed by the pandemic, I faced limitations in terms of character identities and rituals to explore. I initially experimented with scenarios involving police or doctors, but the feasibility of these concepts was restricted due to limited access to suitable props and settings. Consequently, I opted for the idea of a race driver: Preparing for a match but eventually going out with a bicycle.
+      <br /> <br />
+      The central concept revolved around creating an elaborate setup for the character's morning preparations, only to reveal a surprisingly simple task as the ultimate goal, forming the basis for the reversal. Building on the constructive feedback received from peers, it's evident that certain aspects of the initial shots, particularly the out-of-focus elements in the foreground, could have been further refined. Additionally, selecting a cleaner background would have enhanced the viewer's focus on the character's movements.
+      <br /> <br />
+      Overall, the project offered valuable insights into the creative process, emphasizing the importance of thoughtful shot composition and background selection to deliver the visual narrative.
+    </div>
+  </div>
+</div>
+
+export const toyContent = <div className={'text-container'}>
+  <div className={'divider'}></div>
+  <div className={'project-subtitle'}>Motion Graphic Design/3D Modelling</div>
+  <div className={'title-container'}>
+    <div className={'project-title'}>FUTURE CITY 2070: A Dynamic Bus Shelter Advert For An Original Children Toy Kit</div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}>Project Duration</div>
+      <div className={'project-text'}>1 Month</div>
+    </div>
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-paragraph'}>This project entails the creation of a captivating graphic promotional animation featuring a
+      toy designed specifically for children. The core aspects of this project include crafting a toy
+      model in a charming low-polygon style and developing an animated packaging presentation.
+      The ultimate goal is to utilize this animation in an impactful Bus Shelter campaign.</div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}> Clients </div>
+      <div className={'project-text'}>Monash University Masters Studio</div>
+    </div>
+  </div>
+  <YoutubeEmbed embedId="unLnetcYlyM" />
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Task</div>
+      -Design a low polygon toy kit model <br /><br />
+      -Design a toy packaging animation  <br /><br />
+      <br/>
+    </div>
+  </div>
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Challenges</div>
+      The primary challenge encountered during the production phase was related to fine-tuning
+      the path animation within the 3D modelling software. At the onset of production, there
+      was a limited familiarity with 3D software tools, leading to several difficulties in seamlessly
+      adjusting the analogue spline.<br /><br />
+      This lack of experience resulted in the identification of multiple gaps and inconsistencies
+      within the spline, requiring extensive troubleshooting and adjustments. This challenge
+      underscored the importance of acquiring a more comprehensive understanding of 3D
+      software and its intricacies for future projects.<br /><br />
+  </div>
+
+  </div>
+
+  <div className={'heading'}>Tools</div>
+  <div className={'software-container'}>
+    <img src={aiUrl}></img>
+    <img src={aeUrl}></img>
+    <img src={c4dUrl}></img>
+  </div>
+
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Contextual Research: Low Poly</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The concept of Low Poly is a lightweight structural style that has been widely used in different
+      digital fields. In terms of the technical modelling aspects, this structure reduces the time and
+      cost of rendering to a certain extent. This is because Low Poly means the application of fewer
+      surfaces. As a result, the geometric nature of its constituent elements is enhanced, which
+      differs the Low Poly style from the traditional digital style that seeks realism. This is crucial
+      because building elements using the Low Poly style means purposefully not making objects
+      realistic. Therefore, when practising the Low Poly style of building Playset models, it is
+      necessary to balance the abstraction with the realism. It is needed to consider the type of
+      object (liquid-solid, malleable or not) and its materiality in the real world.
+    </div>
+  </div>
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Toy Modelling Design：Futuristic</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      I was inspired by the film Blade Runner and wanted to create a sci-fi stylish scene. During my
+      research, I found out that there is a specific style(Cyberpunk style) widely used in the creation
+      of sci-fi scenes. In this style, the colour use of pastels, neon blues and purples, along with the
+      use of glowing materials are trendy. The visually cool colour tones can emphasize the sense
+      of futuristic technology. A small amount of doctored effect is used for metallic elements, which
+      reflects the harm caused by human activities on nature in the future environment.
+    </div>
+  </div>
+
+  <img src={toyMb} className={'project-img'} />
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Initial Modelling</div>
+  </div>
+
+  <img src={toyModel1} className={'project-img'}/>
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Model Refinement</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The 'floating island' model below the original modelling is removed as it is not suitable as a
+      toy component for display (difficult to support on the ground). This model content itself is
+      not conducive to display without an overall rotation as it is tied to the module above and
+      does not has any other keyframe animations. <br/> <bt/>
+      The overall colour palette is adjusted from the original cool colour scheme to the current
+      warm colour scheme to make the overall emotional and thematic tone more appropriate for
+      younger children. The new colour palette has a positive, cute and warm emotional tone. The
+      background has changed from the old gradient background to a purer beige background
+      using Octane Sky, which stimulates a realistic projection of objects. Spotlight lighting has been
+      added to the lighting section to accentuate and enhance the sense of object volume. The
+      lighting texture is adjusted to create a richer composition for the headlights and signal
+      elements.<br/> <br/>
+    </div>
+  </div>
+
+  <div className={'horizontal-img-container'}>
+    <img src={toyModel2} />
+    <img src={toyModel3} />
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Packaging Design</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The packaging design is in keeping with the overall colour palette of orange and white. By
+      researching the existing toy packaging, most of the toy packaging is masked with a close-up
+      photo of the toy, resulting in a fixed shape frame. These packages apply clashing colour
+      schemes: a collage of dark and light colours as solid colour graphics. I was inspired by one of
+      these examples and used rectangles as lines to connect the front back and sides of the
+      packaging. In my final design, I made a combination of rectangular frames and rectangular
+      fills for the basic design concept, with a rectangular mask to fix the size and dimensions of
+      the rendered image's appearance.
+    </div>
+  </div>
+
+  <img src={toyPackage} className={'project-img'}/>
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>2D Animation</div>
+  </div>
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      --Bouncing <br/><br/>
+      --Transitions <br/><br/>
+      --Path MotionGraphic <br/><br/>
+    </div>
+  </div>
+
+  <img src={toy2d} className={'project-img'}/>
+
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Feedback From Sam (Tutor)</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <i>
+        "Good work with the package documentation, concept and inspirat ion.
+        The colours, text and images communicate clearly to the target audience – well done
+        The animation is very good - well done. When you advertise a product, you want to direct
+        people to go and buy it. Providing the name alone does not say much, where can they find
+        the product to buy, in a store or website?"      </i>
+    </div>
+  </div>
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Reflection</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      From a personal perspective, I view this project as a successful venture into the realm of 3D
+      design. It provided a valuable opportunity for me to gain insights into various material node
+      techniques, particularly within the context of the Octane renderer. The feedback received
+      throughout the project highlighted some critical areas for improvement. <br/> <br/>
+      One significant takeaway is the importance of considering the readability and visual focal
+      point of text messages within the motion graphics segment. This insight has spurred my
+      interest in delving deeper into the psychology of consumerism and exploring additional
+      references from the field of product design. These endeavors will undoubtedly enhance my
+      future design work and contribute to more compelling visual narratives.<br/> <br/>
+    </div>
+  </div>
+</div>
+
+export const shoeContent =  <div className={'text-container'}>
+  <div className={'divider'}></div>
+  <div className={'project-subtitle'}>Motion Graphic Design/Visual Motif Design/Concept Design</div>
+  <div className={'title-container'}>
+    <div className={'project-title'}>HERITAGE RUN: Reebok Olympic Edition Shoe/Motion Graphic Advert</div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}> Project Duration</div>
+      <div className={'project-text'}> 3 Months </div>
+    </div>
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-paragraph'}>HERITAGE RUN is a conceptual sneaker design project created for the REEBOK brand, inspired
+      by the theme of the Brisbane 2032 Olympics. The design prominently features Brisbane's
+      iconic Story Bridge as the central element in the concept. The project encompasses a stylized
+      shoe motif for the REEBOK trainer, introduced with dynamic sneaker motion graphics
+      animations and REEBOK logo animations tailored for social media campaigns.</div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}> Clients </div>
+      <div className={'project-text'}> Monash University Masters Studio</div>
+    </div>
+  </div>
+
+  <YoutubeEmbed embedId="1-80pGpbxAQ" />
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Task</div>
+      For this limited-edition shoe, Reebok is looking for a motif to adorn the footwear. The design
+      should encapsulate the beauty and diversity of Australia and its people. <br/> <br/>
+      Create a dynamic brand identity animation that breathes new life into the Reebok logo,
+      gearing up for sales, marketing, and promotional activities in the lead-up to and during the
+      Brisbane 2032 Olympics.<br/> <br/>
+      A motion design that offers a fun and engaging experience, effectively promoting the
+      brand while generating awareness for this distinctive shoe.<br/> <br/>
+      <br/>
+    </div>
+  </div>
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Challenges</div>
+      The primary challenge in this project was selecting the right visual concept. I needed to
+      find iconic elements that resonated with the city of Brisbane, catering to viewers from
+      diverse cultural backgrounds, all in line with the Olympic program's goal of engaging a
+      culturally diverse audience. An essential insight from studio activities was the importance
+      of making the sneaker and its animation instantly recognizable: it is not just for Brisbane
+      locals but also for audiences from other countries.<br/> <br/>
+      On the technical side of production, our main challenge was ensuring consistency in
+      stylization.<br/> <br/>
+    </div>
+  </div>
+
+  <div className={'heading'}>Tools</div>
+  <div className={'software-container'}>
+    <img src={psUrl}></img>
+    <img src={aeUrl}></img>
+    <img src={aiUrl}></img>
+    <img src={c4dUrl}></img>
+  </div>
+
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Contextual Review：Brisbane Olympic Theme</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The Brisbane 2032 Olympics will feature 28 sports and over 300 events. They'll be held in
+      various venues, including those in Brisbane, Gold Coast, and Sunshine Coast. To support the
+      events, governments are upgrading infrastructure, including iconic spots like the riverfront.
+      This opens up possibilities for using areas around the Story Bridge for events like marathons.
+      The Olympic theme design will consider these popular areas, rich in landmarks, culture, and
+      biodiversity.
+    </div>
+  </div>
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Concept Ideation： HERITAGE RUN</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      I gathered the concepts of the Queenslander building and the Story Bridge through interviews
+      with local Brisbane residents. Luckily, having lived in Brisbane for three years, I acquired these
+      ideas through conversations with former landlords. <br /><br />
+      Reebok's limited-edition design draws inspiration from Brisbane's unique local architecture,
+      featuring the iconic Story Bridge and Queenslander houses. These sturdy structures symbolize
+      Brisbane's identity and heritage. Reebok aims to raise awareness of the importance of
+      preserving these historic relics. The design showcases the buildings' textures on the running
+      shoe, connecting architectural heritage with the Olympic spirit. During the Games, Story
+      Bridge and Queenslanders will become popular tourist attractions, promoting engagement
+      with Brisbane's local culture.<br /><br />
+    </div>
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Mood boards & Final Motif Concept</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      I gathered the concepts of the Queenslander building and the Story Bridge through interviews
+      with local Brisbane residents. Luckily, having lived in Brisbane for three years, I acquired these
+      ideas through conversations with former landlords. <br /><br />
+      Reebok's limited-edition design draws inspiration from Brisbane's unique local architecture,
+      featuring the iconic Story Bridge and Queenslander houses. These sturdy structures symbolize
+      Brisbane's identity and heritage. Reebok aims to raise awareness of the importance of
+      preserving these historic relics. The design showcases the buildings' textures on the running
+      shoe, connecting architectural heritage with the Olympic spirit. During the Games, Story
+      Bridge and Queenslanders will become popular tourist attractions, promoting engagement
+      with Brisbane's local culture.<br /><br />
+    </div>
+  </div>
+
+  <div className={'horizontal-img-container'}>
+    <img src={shoeMb1} />
+    <img src={shoeMb2} />
+  </div>
+
+  <div className={'horizontal-img-container'}>
+    <img src={shoe3} />
+    <img src={shoe4} />
+  </div>
+
+
+  <div className={'horizontal-img-container'}>
+    <img src={shoe5} />
+    <img src={shoe6} />
+  </div>
+
+  <img src={shoe7} className={'project-img'} />
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Logo Animation Concept</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The logo animation concept involves using a roller to roll across the Story Bridge. As it rolls,
+      the word 'REEBOK' is printed on the bridge, and it seamlessly matches with the previously
+      drawn motif.
+    </div>
+  </div>
+
+
+  <img style={{cursor: 'pointer'}} src={shoe8} className={'project-img'} onClick={() => {
+    window.open('https://www.youtube.com/shorts/1-80pGpbxAQ', '_blank');
+  }} />
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Motion Graphic Development</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The original concept focused on depicting a 'running' motion on the bridge. I attempted
+      this using C4D animation, but it was challenging to realise the step-by-step movement. As
+      a result, I used an alternative plan to design a separate fabric simulation-style screen for the
+      middle section of the campaign. It served as an ambient setting, featuring key text messages
+      like shoe textures, the Olympic rings, and 'Brisbane.' These elements match the shoe pattern's
+      colours and enhance the overall Heritage Run collection design. <br/> <br/>
+      During the process of split-screen design, the story bridge generation animation continued
+      the screen setup from the logo animation for further refinement, which ensured consistency
+      of stylistic elements.<br/> <br/>
+    </div>
+  </div>
+
+  <img src={shoeSb} className={'project-img'} />
+  <img src={shoeStyle1} className={'project-img'} />
+  <img src={shoeStyle2} className={'project-img'} />
+  <img src={shoeStyle3} className={'project-img'} />
+  <img src={shoeStyle4} className={'project-img'} />
+
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Feedback</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <i>
+        “ The choice of music complements the motion of visual elements and portrays the energy
+        required for the 2032 Olympics.<br/> <br/>
+        The choice of music and animation portrays the energy required for the 2032 Olympics.<br/> <br/>
+        Largely the an imation syncs to the beats of the music, but you can fine - tune that aspect a lot
+        more - a very good effort. ”      </i>
+    </div>
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Reflection</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The need for independent shoe motif design placed significant demands on the video
+      element's style. Ensuring stylistic consistency during the split-screen design process also
+      required careful consideration of how to incorporate flat textures and models. I employed the
+      bridge-type animation style throughout the dynamic design, using the generated Story
+      Bridge animation to different extents in the logo animation and MG animation, highlighting
+      the iconic nature of the Story Bridge. During the design process, I learned advanced UV
+      mapping techniques for motif creation, which led to further refinement of light and material
+      mapping in subsequent designs.
     </div>
   </div>
 </div>

@@ -15,7 +15,15 @@ import mediumIcon from '../../assets/medium.png'
 import behanceIcon from '../../assets/behance.png'
 import $ from 'jquery';
 import Bus from "../../eventBus";
-import {animalContent, appContent, libContent} from "./projectContent";
+import {
+  animalContent,
+  appContent,
+  interviewContent,
+  libContent,
+  rangerContent, shoeContent,
+  toyContent,
+  zfContent
+} from "./projectContent";
 
 function Home(){
 
@@ -68,17 +76,26 @@ function Home(){
             <ProjectCard image={libUrl} title={'MATHESON LIBRARY'} description={'A creative library introduction for social media promotion'}
             child={libContent}
             />
-            <ProjectCard image={shoeUrl} title={'HERITAGE RUN'} description={'Reebok Olympic concept sneaker motion graphic advert'}/>
+            <ProjectCard image={shoeUrl} title={'HERITAGE RUN'} description={'Reebok Olympic concept sneaker motion graphic advert'}
+              child={shoeContent}
+            />
           </div>
 
           <div className={'card-list'}>
-            <ProjectCard image={toyUrl} title={'FUTURE CITY 2070'} description={'A dynamic bus shelter advert for an original children toy kit'}/>
-            <ProjectCard image={morningUrl} title={'RANGER'} description={'A self-guided morning ritual filming'}/>
+            <ProjectCard image={toyUrl} title={'FUTURE CITY 2070'} description={'A dynamic bus shelter advert for an original children toy kit'}
+                         child={toyContent}/>
+            <ProjectCard image={morningUrl} title={'RANGER'} description={'A self-guided morning ritual filming'}
+                         child={rangerContent}
+            />
           </div>
 
           <div className={'card-list'}>
-            <ProjectCard image={interviewUrl} title={'CULTROO'} description={'A graduation project documentary'}/>
-            <ProjectCard image={anotherUrl} title={'DON’T TRY TO BUY ME OFF'} description={'A film dialogue parody'}/>
+            <ProjectCard image={interviewUrl} title={'CULTROO'} description={'A graduation project documentary'}
+              child={interviewContent}
+            />
+            <ProjectCard image={anotherUrl} title={'DON’T TRY TO BUY ME OFF'} description={'A film dialogue parody'}
+              child={zfContent}
+            />
           </div>
 
           <div className={'footer-container'} id={'footer'}>
