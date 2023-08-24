@@ -32,7 +32,12 @@ import animalTrigger1 from "./images/Trigger Image1.png";
 import animalTrigger2 from "./images/Trigger Image2.png";
 import libFont1 from './images/libFont1.jpg';
 import libFont2 from './images/libFont2.jpg';
-import app3d1 from './images/手机制作工艺.png'
+import app3d1 from './images/手机制作工艺.png';
+import app3d2 from './images/小青制作工艺.png';
+import appFrame1 from './images/字幕帧1.png';
+import appFrame2 from './images/字幕帧2.png';
+import appBg1 from './images/环绕图.png';
+import appBg2 from './images/信息图.png';
 
 export const libContent =  <div className={'text-container'}>
   <div className={'divider'}></div>
@@ -504,89 +509,43 @@ export const appContent = <div className={'text-container'}>
   </div>
   <div className={'paragraph-container'}>
     <div className={'project-paragraph'}>
-      The animal character design for the Tasmanian Devil adopts a vector-based cartoon drawing style. The character's actions include crawling, running, and resting, which were meticulously illustrated as separate entities, each aligned with the predefined scenes in the storyboard. These scenes encompassed various aspects of the Tasmanian Devil's life, such as predation, facial expressions, and its habitat.
-      <br /> <br />
-      For perspective considerations, I experimented with turning the character's head, thus creating diverse perspectives for the depicted actions. This approach aimed to enhance the visual appeal and storytelling capacity of the animal throughout the animation.
+      As part of our brand identity strategy, I took the initiative to create a simplified character illustration for the app, known as "Xiaoqing."
+      <br />       <br />
+      This character was seamlessly integrated into both the Lower Third subtitle and main heading, effectively enhancing the overall visual appeal.
+      To further increase user engagement, we employed a simplified character rigging animation. This animation added a dynamic dimension to the on-screen information and fostered a sense of interaction within the content.
+      <br />
     </div>
   </div>
 
-  <img src={animalChar} className={'project-img'} />
+  <img src={app3d2} className={'project-img'} />
 
-
+  <div className={'horizontal-img-container'}>
+    <img src={appFrame1} />
+    <img src={appFrame2} />
+  </div>
   <div className={'title-container'}>
-    <div className={'project-title smaller-title'}>Mood boards: Parallax Composition</div>
+    <div className={'project-title smaller-title'}>Data Visualization/Infographics</div>
   </div>
   <div className={'paragraph-container'}>
     <div className={'project-paragraph'}>
-      The mood board primarily serves as a reference point for composition, a crucial element in our animated project, given the substantial interaction between the characters and their environment. During the mood board creation, we drew inspiration from several frames featuring a paper cutout style and a captivating parallax effect. This aesthetic direction significantly influenced our animation approach.
-      <br /> <br />
-      Ultimately, we adopted a method where each animal character is treated as a distinct foreground element while the background serves as the backdrop. We carefully calibrated the camera's depth of field and relative motion to achieve the desired visual effect. Furthermore, we drew insights from various material references to inform the overall design and atmosphere of the animation.
-      <br /> <br />
+      Use graphical animations in the introductory tab and progress screens to simplify textual infographics      <br /> <br />
     </div>
-  </div>
-
-  <img src={moodBoard} className={'project-img'} />
-
-
-  <div className={'title-container'}>
-    <div className={'project-title smaller-title'}>Storyboard</div>
   </div>
 
   <div className={'horizontal-img-container'}>
-    <img src={animalSb1} />
-    <img src={animalSb2} />
+    <img src={appBg1} />
+    <img src={appBg2} />
   </div>
 
-  <div className={'title-container'}>
-    <div className={'project-title smaller-title'}>Animation Principles</div>
-  </div>
-
-  <div className={'paragraph-container'}>
-    <div className={'project-paragraph'}>
-      Secondary Animation: Tasmanian Devil's walking/running animation applies secondary movements of the body. When its inward-facing front leg is raised, another outward-facing leg will also lift. On top of this, the head will be shaking with the tail cocking and drooping. Similar use of this role has applied to another character's head-up animation. When the Tasmanian Devil's head is up, the eyes also move up. This provides a real focus and the direction of vision.
-      <br /> <br />
-      Anticipation: The head-up action is an anticipation action for shot switching. When the Tasmanian Devil looks at the sky, the camera is gradually pulled upward. The sky over the forest becomes the background of the next shot.
-      <br /> <br />
-      Arc: The magnifying glass animation uses a spiral arc motion path, which makes the Tasmanian Devil's gradient appearance animation more dynamic.
-      <br /> <br />
-    </div>
-  </div>
-
-  <img src={animalPro1} className={'project-img'}/>
-  <img src={animalPro2} className={'project-img'}/>
-  <img src={animalFrame} className={'project-img'} />
-
-  <div className={'horizontal-img-container vertical'}>
-
-    <img style={{cursor: 'pointer'}} src={animalTrigger1} onClick={() => {
-      window.open('https://launch.eyejackapp.com/Artwork-f9b20b99-632e-4ae4-b940-3ddc84202c75', "_blank")
-    }}/>
-
-    <img style={{cursor: 'pointer'}} src={animalTrigger2} onClick={() => {
-      window.open('https://launch.eyejackapp.com/Artwork-bb3d911b-2d2d-4e2c-99dd-d257e1db7b60', "_blank")
-    }}/>
-
-
-  </div>
-
-
-  <div className={'title-container'}>
-    <div className={'project-title smaller-title'}>Feedback from Van (Tutor)</div>
-  </div>
-  <div className={'paragraph-container'}>
-    <div className={'project-paragraph'}>
-      <i>
-        “What is really strong in this submission is the use of motion so you've got really nice use of motion and transitions and cameras and movements so you know in the shadows as well. Yeah, just the transition the movement into the section about the Facial Tumor diseases and then you know that transition into the car is really strong and then into the sort of circle holding it. I think there's lots of really interesting ideas around motion and animation here that work really well. What's probably less strong is the design. So the devil character looks very different in the different shots. You know, the sort of simple versions of it at the start, and at the end, then, when it's endangered, you know, it's got the detail of its mouth. Then, yeah, there's sort of a start. It looks like a teddy bear. You've got a lot of different styles too. You've got the globe with Australia, then you've got sort of a really simple map and the simple pause, then the 3d trees, then the Facial Tumor section is very detailed. You know, then the kind of the leaves at the end sort of a different style again, with a drop shadow. So I really think just the visual design is where you need to concentrate your efforts and really start to take what's you know, clearly a good eye for motion graphics and for design generally and just apply that to the designs that you're creating and animating. Um, so yeah, that's probably the section where it's a little bit less strong. what I was saying was that I think, with the subtitles you should just use a simpler sans serif font rather than that kind of hand drawn font, which is generally sort of makes things look a little bit more childlike or a little less sophisticated. So yeah, I think there's really lots of strong elements here and you've created strong work throughout the semester. But there's also room in this submission for improvement. So I look forward to seeing what you do in subsequent semesters.”      </i>
-    </div>
-  </div>
 
   <div className={'title-container'}>
     <div className={'project-title smaller-title'}>Reflection</div>
   </div>
   <div className={'paragraph-container'}>
     <div className={'project-paragraph'}>
-      This project presented a distinctive challenge centred around animal character rigging, setting it apart from the conventional character binding scenarios, I had to meticulously consider the number of animation cycles and the starting points of these actions during the design phase.
-      <br /> <br />
-      Effective feedback proved invaluable in shaping my project's evolution. Notably, I encountered aesthetic challenges stemming from the constraints of our production cycle. The final sequence has discernible differences in the level of facial detail among the animal characters in close-up and angled shots. Moreover, while my scenes incorporated camera animations and textures, our choice of 2D binding meant that the animal assets lacked the textures necessary for a cohesive visual experience. This discordance highlighted the need for enhanced emphasis on aesthetic consistency in our future design endeavors.    </div>
+      The project presented a short-term Motion Graphic (MG) challenge, placing a premium on an effective production strategy. To meet the project's demands, I embarked on a journey of experimentation, particularly focusing on vector illustration MG techniques. These techniques encompassed the application of visualizations, character integration, and the incorporation of pseudo-3D elements, all aimed at expediting the rendering of key visuals.
+      <br />       <br />
+      However, it's worth noting that the extended duration of the animation, spanning 2 minutes, resulted in varying levels of production precision across different segments. This divergence in quality was primarily attributed to the demanding schedule. It underscores the need for refinements in the subsequent phases of animation design to ensure a consistently high level of quality throughout the entire project.
+    </div>
   </div>
 </div>
