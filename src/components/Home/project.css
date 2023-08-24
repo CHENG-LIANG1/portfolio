@@ -87,7 +87,7 @@
 }
 
 .software-container {
-  margin:2rem auto 2rem auto;
+  margin: 1rem auto 2rem auto;
   display: flex;
   gap: 32px;
   padding-left: 20%;
@@ -122,6 +122,7 @@
 
 .heading {
   color: #ed375a;
+  margin-top: 2rem;
 }
 
 .horizontal-img-container {
@@ -134,4 +135,12 @@
 
 .horizontal-img-container img {
   width: 50%;
+}
+
+.split-line{
+  height: 1px;
+  width: 100%;
+  background-color: #444;
+  border: none;
+  margin-bottom: 16px;
 }

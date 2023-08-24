@@ -107,9 +107,9 @@ function Home(){
 
 
 
-      <hr />
-
-      <div className={'credit-container'}>I acknowledge the use of ChatGPT (https://chat.openai.com/) to refine my wording and grammar. The prompts used include:
+      <div className={'credit-container'}>
+        <div className={'split-line'}> </div>
+        I acknowledge the use of ChatGPT (https://chat.openai.com/) to refine my wording and grammar. The prompts used include:
         proofread
         check my grammar</div>
 
