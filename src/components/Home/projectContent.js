@@ -21,6 +21,15 @@ import libElem1 from "./images/图书馆视觉元素1.png";
 import libElem2 from "./images/图书馆视觉元素2.png";
 import libElem3 from "./images/图书馆视觉元素3.png";
 import libElem4 from "./images/图书馆视觉元素4.png";
+import animalChar from "./images/动物角色插图.png";
+import moodBoard from "./images/情绪板.png";
+import animalSb1 from "./images/故事板1.png";
+import animalSb2 from "./images/故事板2.png";
+import animalPro1 from "./images/制作过程1.png";
+import animalPro2 from "./images/制作过程2.png";
+import animalFrame from "./images/样式帧图.png";
+import animalTrigger1 from "./images/Trigger Image1.png";
+import animalTrigger2 from "./images/Trigger Image2.png";
 
 export const libContent =  <div className={'text-container'}>
   <div className={'divider'}></div>
@@ -72,7 +81,6 @@ export const libContent =  <div className={'text-container'}>
     <img src={psUrl}></img>
     <img src={prUrl}></img>
     <img src={aeUrl}></img>
-    <img src={aiUrl}></img>
     <img src={scpUrl}></img>
   </div>
 
@@ -242,4 +250,167 @@ export const libContent =  <div className={'text-container'}>
   </div>
 </div>
 
+export const animalContent = <div className={'text-container'}>
+  <div className={'divider'}></div>
+  <div className={'project-subtitle'}>Motion Graphic Design/Character Design/Visual Storytelling/Augment Reality</div>
+  <div className={'title-container'}>
+    <div className={'project-title'}>Endangered Species Call To Action Motion Graphic</div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}>Project Duration</div>
+      <div className={'project-text'}>1.5 Months </div>
+    </div>
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-paragraph'}>This project involved the creation of an educational graphic animation focused on the Tasmanian Devil, a species listed as endangered on the Zoos Victoria Endangered Animals List. The primary objective of the motion graphics is to illustrate the imminent existential threat confronting the Tasmanian Devil and to raise awareness about the importance of cautious driving during the night. Furthermore, the motion graphics serve as an appeal for donations to support the zoo's not-for-profit care program.</div>
+    <div className={'right-panel'}>
+      <div className={'project-bold-text'}> Clients </div>
+      <div className={'project-text'}>Monash University Masters Studio</div>
+      <div className={'project-text'}>Zoos Victoria</div>
+    </div>
+  </div>
+
+  <YoutubeEmbed embedId="myHCjnNnKnc" />
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Task</div>
+      - Design a character based on the selected animal, considering the style and aesthetics that effectively convey the animal's essence.
+      <br/> <br/>
+      - Develop a character sheet with drawings of your character in at least three different poses to guide the animation.
+      <br/> <br/>
+      - Explain and plan the use of at least three principles of animation that will be incorporated into your animation.
+      <br/> <br/>
+      - Implement simple AR using EyeJack to enhance your story, possibly reinforcing the call to action.
+      <br/> <br/>
+      - Design a poster or image that utilizes AR with your animated character to reinforce the call to action.
+      <br/> <br/>
+      - Include a compelling statistic or critical information about the chosen animal that generates empathy and a clear call to action, such as directing viewers to a website or encouraging donations.
+      <br/>
+    </div>
+  </div>
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Challenges</div>
+      The primary challenge during this project was the rigging manipulation of the animal movement. This demanded meticulous reference to the real-world motion patterns of a Tasmanian Devil or a similar reptilian species. The intricate aspect was harmonizing these authentic animal movements with the environmental graphics. Notably, both components, the animal's motion and the environment should be separately illustrated while adhering to a unified stylistic consistency (For AR purposes). This delicate balancing act was essential for creating a visually compelling narrative.
+    </div>
+  </div>
+
+  <div className={'heading'}>Tools</div>
+  <div className={'software-container'}>
+    <img src={psUrl}></img>
+    <img src={aeUrl}></img>
+    <img src={aiUrl}></img>
+  </div>
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Contextual Research</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The survival of Tasmanian Devils is seriously threatened by Devil Facial Tumour Disease which develops rapidly and is fatal. <br />
+      Once the highly infectious cancerous tumours appear around the mouth, face and neck, the Devils generally die within three to six months. <br />
+      The other threat is cars (and their drivers) killing them on the roads. <br />
+      <br /> <br />
+      Zoos Victoria, through Healesville Sanctuary, is a partner of the Save the Tasmanian Devil program. It aims to breed and manage up to 50 Devils as part of the long-term insurance program. In 2013, 2015 and 2017, Tasmanian Devils were released from Healesville to locations free of the tumour disease on Maria Island and the Tasman Peninsula. Zoos Victoria also assists with monitoring animals and conducting research in the wild, in the lab and in the captive program.
+      <br /> <br />
+      Source credit to:https://www.zoo.org.au/fighting-extinction/local-threatened-species/tasmanian-devil/ <br />
+    </div>
+  </div>
+
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Character Motion Graphic Design</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The animal character design for the Tasmanian Devil adopts a vector-based cartoon drawing style. The character's actions include crawling, running, and resting, which were meticulously illustrated as separate entities, each aligned with the predefined scenes in the storyboard. These scenes encompassed various aspects of the Tasmanian Devil's life, such as predation, facial expressions, and its habitat.
+      <br /> <br />
+      For perspective considerations, I experimented with turning the character's head, thus creating diverse perspectives for the depicted actions. This approach aimed to enhance the visual appeal and storytelling capacity of the animal throughout the animation.
+    </div>
+  </div>
+
+  <img src={animalChar} className={'project-img'} />
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Mood boards: Parallax Composition</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      The mood board primarily serves as a reference point for composition, a crucial element in our animated project, given the substantial interaction between the characters and their environment. During the mood board creation, we drew inspiration from several frames featuring a paper cutout style and a captivating parallax effect. This aesthetic direction significantly influenced our animation approach.
+      <br /> <br />
+      Ultimately, we adopted a method where each animal character is treated as a distinct foreground element while the background serves as the backdrop. We carefully calibrated the camera's depth of field and relative motion to achieve the desired visual effect. Furthermore, we drew insights from various material references to inform the overall design and atmosphere of the animation.
+      <br /> <br />
+    </div>
+  </div>
+
+  <img src={moodBoard} className={'project-img'} />
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Storyboard</div>
+  </div>
+
+  <div className={'horizontal-img-container'}>
+    <img src={animalSb1} />
+    <img src={animalSb2} />
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Animation Principles</div>
+  </div>
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      Secondary Animation: Tasmanian Devil's walking/running animation applies secondary movements of the body. When its inward-facing front leg is raised, another outward-facing leg will also lift. On top of this, the head will be shaking with the tail cocking and drooping. Similar use of this role has applied to another character's head-up animation. When the Tasmanian Devil's head is up, the eyes also move up. This provides a real focus and the direction of vision.
+      <br /> <br />
+      Anticipation: The head-up action is an anticipation action for shot switching. When the Tasmanian Devil looks at the sky, the camera is gradually pulled upward. The sky over the forest becomes the background of the next shot.
+      <br /> <br />
+      Arc: The magnifying glass animation uses a spiral arc motion path, which makes the Tasmanian Devil's gradient appearance animation more dynamic.
+      <br /> <br />
+    </div>
+  </div>
+
+  <img src={animalPro1} className={'project-img'}/>
+  <img src={animalPro2} className={'project-img'}/>
+  <img src={animalFrame} className={'project-img'} />
+
+  <div className={'horizontal-img-container vertical'}>
+
+    <img style={{cursor: 'pointer'}} src={animalTrigger1} onClick={() => {
+      window.open('https://launch.eyejackapp.com/Artwork-f9b20b99-632e-4ae4-b940-3ddc84202c75', "_blank")
+    }}/>
+
+    <img style={{cursor: 'pointer'}} src={animalTrigger2} onClick={() => {
+      window.open('https://launch.eyejackapp.com/Artwork-bb3d911b-2d2d-4e2c-99dd-d257e1db7b60', "_blank")
+    }}/>
+
+
+  </div>
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Peer Feedback from Van (Tutor)</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <i>
+        “What is really strong in this submission is the use of motion so you've got really nice use of motion and transitions and cameras and movements so you know in the shadows as well. Yeah, just the transition the movement into the section about the Facial Tumor diseases and then you know that transition into the car is really strong and then into the sort of circle holding it. I think there's lots of really interesting ideas around motion and animation here that work really well. What's probably less strong is the design. So the devil character looks very different in the different shots. You know, the sort of simple versions of it at the start, and at the end, then, when it's endangered, you know, it's got the detail of its mouth. Then, yeah, there's sort of a start. It looks like a teddy bear. You've got a lot of different styles too. You've got the globe with Australia, then you've got sort of a really simple map and the simple pause, then the 3d trees, then the Facial Tumor section is very detailed. You know, then the kind of the leaves at the end sort of a different style again, with a drop shadow. So I really think just the visual design is where you need to concentrate your efforts and really start to take what's you know, clearly a good eye for motion graphics and for design generally and just apply that to the designs that you're creating and animating. Um, so yeah, that's probably the section where it's a little bit less strong. what I was saying was that I think, with the subtitles you should just use a simpler sans serif font rather than that kind of hand drawn font, which is generally sort of makes things look a little bit more childlike or a little less sophisticated. So yeah, I think there's really lots of strong elements here and you've created strong work throughout the semester. But there's also room in this submission for improvement. So I look forward to seeing what you do in subsequent semesters.”      </i>
+    </div>
+  </div>
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Reflection</div>
+  </div>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      This project presented a distinctive challenge centred around animal character rigging, setting it apart from the conventional character binding scenarios, I had to meticulously consider the number of animation cycles and the starting points of these actions during the design phase.
+      <br /> <br />
+      Effective feedback proved invaluable in shaping my project's evolution. Notably, I encountered aesthetic challenges stemming from the constraints of our production cycle. The final sequence has discernible differences in the level of facial detail among the animal characters in close-up and angled shots. Moreover, while my scenes incorporated camera animations and textures, our choice of 2D binding meant that the animal assets lacked the textures necessary for a cohesive visual experience. This discordance highlighted the need for enhanced emphasis on aesthetic consistency in our future design endeavors.    </div>
+  </div>
+</div>
 

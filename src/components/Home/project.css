@@ -133,6 +133,10 @@
   margin-top: 2rem;
 }
 
+.vertical {
+  gap: 2rem;
+}
+
 .horizontal-img-container img {
   width: 50%;
 }

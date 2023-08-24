@@ -15,7 +15,7 @@ import mediumIcon from '../../assets/medium.png'
 import behanceIcon from '../../assets/behance.png'
 import $ from 'jquery';
 import Bus from "../../eventBus";
-import {libContent} from "./projectContent";
+import {animalContent, libContent} from "./projectContent";
 
 function Home(){
 
@@ -56,7 +56,9 @@ function Home(){
         <div className={'project-div'} style={{display: 'flex', flexDirection: 'column', gap: 16, justifyContent: 'space-between',}}>
           <div className={'featured-title'}>Featured works</div>
           <div className={'card-list'}>
-            <ProjectCard image={animalUrl} title={'TASMANIAN DEVIL'} description={'Zoos Victoria endangered species call to action motion graphic'}/>
+            <ProjectCard image={animalUrl} title={'TASMANIAN DEVIL'} description={'Zoos Victoria endangered species call to action motion graphic'}
+              child={animalContent}
+            />
             <ProjectCard image={appUrl} title={'iQingbaijiang 2023'} description={'A motion graphic video for the iQingbaijiang app update'}/>
           </div>
 
