@@ -80,10 +80,11 @@
 }
 
 .project-img {
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  padding-left: calc(10% - 8px);
+  padding-right: calc(10% - 8px);
 }
 
 .software-container {
@@ -127,10 +128,12 @@
 
 .horizontal-img-container {
   display: flex;
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
+  padding-right: calc(10% + 8px);
+  padding-left: calc(10% - 8px);
   justify-content: space-between;
   margin-top: 2rem;
+  gap: 1rem;
 }
 
 .vertical {

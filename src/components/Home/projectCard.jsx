@@ -72,7 +72,7 @@ const ProjectCard = (props) => {
                 <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
 
                 </Typography>
-                <Button autoFocus color="inherit" onClick={handleClose}>
+                <Button color="inherit" onClick={handleClose}>
                   Close
                 </Button>
               </Toolbar>
