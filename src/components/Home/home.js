@@ -15,6 +15,8 @@ import mediumIcon from '../../assets/medium.png'
 import behanceIcon from '../../assets/behance.png'
 import $ from 'jquery';
 import Bus from "../../eventBus";
+import {libContent} from "./projectContent";
+
 function Home(){
 
   const scrollToProjects = () => {
@@ -22,8 +24,10 @@ function Home(){
     $('html, body').animate({scrollTop: targetOffset}, 1000);
   }
 
-  useEffect(() => {
 
+
+
+  useEffect(() => {
     Bus.addListener('toFooter', (count)=> {
       let targetOffset = $('#footer').offset().top;
       $('html, body').animate({scrollTop: targetOffset}, 1000);
@@ -57,7 +61,9 @@ function Home(){
           </div>
 
           <div className={'card-list'}>
-            <ProjectCard image={libUrl} title={'MATHESON LIBRARY'} description={'A creative library introduction for social media promotion'}/>
+            <ProjectCard image={libUrl} title={'MATHESON LIBRARY'} description={'A creative library introduction for social media promotion'}
+            child={libContent}
+            />
             <ProjectCard image={shoeUrl} title={'HERITAGE RUN'} description={'Reebok Olympic concept sneaker motion graphic advert'}/>
           </div>
 
@@ -78,7 +84,7 @@ function Home(){
               <div className={'footer-text'}> I am always up for a cup of tea:) </div>
               <div className={'icon-container'}>
                 <div className={'icon-wrapper'} onClick={() => {
-                  window.open('www.linkedin.com/in/久瑞-彭-1a3677160', "_blank")
+                  window.open('https://www.linkedin.com/in/久瑞-彭-1a3677160', "_blank")
                 }}><img src={linkedInIcon}/></div>
                 <div className={'icon-wrapper'} onClick={() => {
                   window.open('https://www.youtube.com/channel/UCU7tx0T3R3lrP9rqioBTikg', "_blank")

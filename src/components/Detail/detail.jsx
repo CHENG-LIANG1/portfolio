@@ -33,10 +33,18 @@ const Detail = () => {
           <div className={'email'}> JaneRayDesign@outlook.com </div>
           <div className={'footer-text'}> I am always up for a cup of tea:) </div>
           <div className={'icon-container'}>
-            <div className={'icon-wrapper'}><img src={linkedInIcon}/></div>
-            <div className={'icon-wrapper'}><img src={youtubeIcon}/></div>
-            <div className={'icon-wrapper'}><img src={mediumIcon}/></div>
-            <div className={'icon-wrapper'}><img src={behanceIcon}/></div>
+            <div className={'icon-wrapper'} onClick={() => {
+              window.open('https://www.linkedin.com/in/久瑞-彭-1a3677160', "_blank")
+            }}><img src={linkedInIcon}/></div>
+            <div className={'icon-wrapper'} onClick={() => {
+              window.open('https://www.youtube.com/channel/UCU7tx0T3R3lrP9rqioBTikg', "_blank")
+            }}><img src={youtubeIcon}/></div>
+            <div className={'icon-wrapper'} onClick={() => {
+              window.open('https://medium.com/@JiuruiPeng', "_blank")
+            }}><img src={mediumIcon}/></div>
+            <div className={'icon-wrapper'} onClick={() => {
+              window.open('https://www.behance.net/jiuruipeng1', "_blank")
+            }}><img src={behanceIcon}/></div>
           </div>
         </div>
 

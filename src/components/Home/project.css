@@ -1,6 +1,7 @@
 
 .text-container {
   margin: 4rem 8rem 8rem 8rem;
+  min-width: 800px;
 }
 
 .divider {
@@ -81,4 +82,41 @@
   width: 80%;
   margin-left: 10%;
   margin-bottom: 2rem;
+}
+
+.software-container {
+  margin:16rem auto 0 auto;
+  width: 40%;
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+
+.software-container img {
+  width: 64px;
+}
+
+@media (max-width: 1600px) {
+  .project-paragraph {
+    padding-left: 100px;
+    width: calc(100% - 100px);
+  }
+  .project-subtitle {
+    margin-left: 100px;
+  }
+
+  .divider {
+    margin-left: 100px;
+    width: calc(100% - 100px);
+  }
+  .right-panel {
+    width: 200px;
+  }
+  .title-container {
+    flex-grow: 1;
+  }
+}
+
+.heading {
+  color: #ed375a;
 }
