@@ -1,13 +1,26 @@
 import React from "react";
 import YoutubeEmbed from "../util/YouTubeEmbed";
-import libUrl from "../../assets/lib.jpg";
+import libUrl from "./images/图书馆构造.png";
 import psUrl from "./images/ps.jpg";
 import prUrl from "./images/pr.jpg";
 import aeUrl from "./images/ae.jpg";
 import aiUrl from "./images/ai.jpg";
 import c4dUrl from "./images/c4d.jpg";
 import scpUrl from './images/scp.jpg'
-
+import libPersona1 from "./images/图书馆pesona1.png";
+import libPersona2 from "./images/图书馆pesona2.png";
+import libMindMap from "./images/思维框架图.png";
+import libSb1 from "./images/图书馆故事版1.png";
+import libSb2 from "./images/图书馆故事版2.png";
+import libSb3 from "./images/图书馆故事版3.png";
+import libSb4 from "./images/图书馆故事版4.png";
+import libSb5 from "./images/图书馆故事板5.png";
+import libSp1 from "./images/分镜安排.png";
+import libSp2 from "./images/分镜安排2.png";
+import libElem1 from "./images/图书馆视觉元素1.png";
+import libElem2 from "./images/图书馆视觉元素2.png";
+import libElem3 from "./images/图书馆视觉元素3.png";
+import libElem4 from "./images/图书馆视觉元素4.png";
 
 export const libContent =  <div className={'text-container'}>
   <div className={'divider'}></div>
@@ -54,6 +67,14 @@ export const libContent =  <div className={'text-container'}>
     </div>
   </div>
 
+  <div className={'heading'}>Tools</div>
+  <div className={'software-container'}>
+    <img src={psUrl}></img>
+    <img src={prUrl}></img>
+    <img src={aeUrl}></img>
+    <img src={aiUrl}></img>
+    <img src={scpUrl}></img>
+  </div>
 
   <div className={'paragraph-container'}>
     <div className={'project-paragraph'}>
@@ -99,7 +120,10 @@ export const libContent =  <div className={'text-container'}>
     </div>
   </div>
 
-  <img src={libUrl} className={'project-img'} />
+  <div className={'horizontal-img-container'}>
+    <img src={libPersona1} />
+    <img src={libPersona2} />
+  </div>
 
 
   <div className={'title-container'}>
@@ -114,7 +138,7 @@ export const libContent =  <div className={'text-container'}>
     </div>
   </div>
 
-  <img src={libUrl} className={'project-img'} />
+  <img src={libMindMap} className={'project-img'} />
 
   <div className={'title-container'}>
     <div className={'project-title smaller-title'}>Screenplay Development</div>
@@ -131,9 +155,32 @@ export const libContent =  <div className={'text-container'}>
     </div>
   </div>
 
-  <img src={libUrl} className={'project-img'} />
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Storyboard</div>
+  </div>
 
-  <img src={libUrl} className={'project-img'} />
+    <img src={libSb1} className={'project-img'} />
+
+    <div className={'horizontal-img-container'}>
+      <img src={libSb2} />
+      <img src={libSb3} />
+    </div>
+
+    <div className={'horizontal-img-container'}>
+      <img src={libSb4} />
+      <img src={libSb5} />
+    </div>
+
+
+  <div className={'title-container'}>
+    <div className={'project-title smaller-title'}>Screenplay Management</div>
+  </div>
+
+  <div className={'horizontal-img-container'}>
+    <img src={libSp1} />
+    <img src={libSp2} />
+  </div>
+
 
   <div className={'title-container'}>
     <div className={'project-title smaller-title'}>Motion Graphic Assets</div>
@@ -147,7 +194,15 @@ export const libContent =  <div className={'text-container'}>
       Lower-Third Illustration: To maintain consistency in typeface, we electronically crafted lower-third illustrations in Photoshop. The style of these illustrations echoes the vintage illustrations found within the interior pages of the SPECIAL COLLECTION. This design choice not only reflects the gallery's history but also alludes to the extensive collection of rare and antiquated books within the library.
     </div>
   </div>
+  <div className={'horizontal-img-container'}>
+    <img src={libElem1} />
+    <img src={libElem2} />
+  </div>
 
+  <div className={'horizontal-img-container'}>
+    <img src={libElem3} />
+    <img src={libElem4} />
+  </div>
 
   <div className={'title-container'}>
     <div className={'project-title smaller-title'}>Font/Colour Specification: Client Communication</div>
@@ -185,13 +240,6 @@ export const libContent =  <div className={'text-container'}>
       Moreover, our filming environment posed limitations on our ADR voiceover. In hindsight, we acknowledge that further adjustments in post-production, such as Recording Studio recording, could have enhanced audio fidelity. This learning experience underscores the importance of meticulous post-production refinement to elevate the overall project quality.
     </div>
   </div>
-
-  <div className={'software-container'}>
-    <img src={psUrl}></img>
-    <img src={prUrl}></img>
-    <img src={aeUrl}></img>
-    <img src={aiUrl}></img>
-    <img src={scpUrl}></img>
-  </div>
-
 </div>
+
+
