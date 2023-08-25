@@ -103,13 +103,20 @@ export const libContent =  <div className={'text-container'} >
     </div>
   </div>
 
-  <div className={'heading'}>Tools</div>
-  <div className={'software-container'}>
-    <img src={psUrl}></img>
-    <img src={prUrl}></img>
-    <img src={aeUrl}></img>
-    <img src={fcpUrl}></img>
+
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Tools</div>
+      <div className={'software-container'}>
+        <img src={psUrl}></img>
+        <img src={prUrl}></img>
+        <img src={aeUrl}></img>
+        <img src={fcpUrl}></img>
+      </div>
+    </div>
   </div>
+
 
   <div className={'paragraph-container'}>
     <div className={'project-paragraph'}>
@@ -325,11 +332,13 @@ export const animalContent = <div className={'text-container'}>
     </div>
   </div>
 
-  <div className={'heading'}>Tools</div>
-  <div className={'software-container'}>
-    <img src={psUrl}></img>
-    <img src={aeUrl}></img>
-    <img src={aiUrl}></img>
+  <div className={'paragraph-container'}>
+    <div className={'heading'}>Tools</div>
+    <div className={'software-container'}>
+      <img src={psUrl}></img>
+      <img src={aeUrl}></img>
+      <img src={aiUrl}></img>
+    </div>
   </div>
 
 
@@ -491,11 +500,13 @@ export const appContent = <div className={'text-container'}>
       Moreover, Client A provided us with a two-minute-long voice-over content. To keep the audience constantly engaged, we should avoid content repetition or interruptions while introducing the interface and functions. In addition, we should align our visual element properly with the VO content. This intricate balance allowed us to effectively convey the app's new features while ensuring a smooth and cohesive viewing experience.    </div>
   </div>
 
-  <div className={'heading'}>Tools</div>
-  <div className={'software-container'}>
-    <img src={psUrl}></img>
-    <img src={aeUrl}></img>
-    <img src={aiUrl}></img>
+  <div className={'paragraph-container'}>
+    <div className={'heading'}>Tools</div>
+    <div className={'software-container'}>
+      <img src={psUrl}></img>
+      <img src={aeUrl}></img>
+      <img src={aiUrl}></img>
+    </div>
   </div>
 
 
@@ -600,12 +611,17 @@ export const zfContent = <div className={'text-container'}>
     </div>
   </div>
 
-
-  <div className={'heading'}>Tools</div>
-  <div className={'software-container'}>
-    <img src={prUrl}></img>
-    <img src={fcpUrl}></img>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Tools</div>
+      <div className={'software-container'}>
+        <img src={prUrl}></img>
+        <img src={fcpUrl}></img>
+      </div>
+    </div>
   </div>
+
+
 
 
 
@@ -654,10 +670,15 @@ export const interviewContent = <div className={'text-container'}>
   </div>
 
 
-  <div className={'heading'}>Tools</div>
-  <div className={'software-container'}>
-    <img src={prUrl}></img>
-    <img src={fcpUrl}></img>
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Tools</div>
+      <div className={'software-container'}>
+        <img src={prUrl}></img>
+        <img src={fcpUrl}></img>
+      </div>
+    </div>
   </div>
 
 
@@ -710,11 +731,16 @@ export const rangerContent = <div className={'text-container'}>
   </div>
 
 
-  <div className={'heading'}>Tools</div>
-  <div className={'software-container'}>
-    <img src={prUrl}></img>
-    <img src={fcpUrl}></img>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Tools</div>
+      <div className={'software-container'}>
+        <img src={prUrl}></img>
+        <img src={fcpUrl}></img>
+      </div>
+    </div>
   </div>
+
 
 
 
@@ -779,12 +805,19 @@ export const toyContent = <div className={'text-container'}>
 
   </div>
 
-  <div className={'heading'}>Tools</div>
-  <div className={'software-container'}>
-    <img src={aiUrl}></img>
-    <img src={aeUrl}></img>
-    <img src={c4dUrl}></img>
+
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Tools</div>
+      <div className={'software-container'}>
+        <img src={aiUrl}></img>
+        <img src={aeUrl}></img>
+        <img src={c4dUrl}></img>
+      </div>
+    </div>
   </div>
+
+
 
 
 
@@ -975,13 +1008,19 @@ export const shoeContent =  <div className={'text-container'}>
     </div>
   </div>
 
-  <div className={'heading'}>Tools</div>
-  <div className={'software-container'}>
-    <img src={psUrl}></img>
-    <img src={aeUrl}></img>
-    <img src={aiUrl}></img>
-    <img src={c4dUrl}></img>
+  <div className={'paragraph-container'}>
+    <div className={'project-paragraph'}>
+      <div className={'heading'}>Tools</div>
+      <div className={'software-container'}>
+        <img src={psUrl}></img>
+        <img src={aeUrl}></img>
+        <img src={aiUrl}></img>
+        <img src={c4dUrl}></img>
+      </div>
+    </div>
   </div>
+
+
 
 
 
