@@ -24,6 +24,8 @@ import {
   toyContent,
   zfContent
 } from "./projectContent";
+import ScrollToTop from "react-scroll-to-top";
+import {ARROW} from "../util/YouTubeEmbed";
 
 function Home(){
 
@@ -31,8 +33,6 @@ function Home(){
     let targetOffset = $('#projects').offset().top;
     $('html, body').animate({scrollTop: targetOffset}, 1000);
   }
-
-
 
 
   useEffect(() => {
@@ -120,13 +120,11 @@ function Home(){
             </div>
 
           </div>
+
+          <ScrollToTop smooth color={'#fff'} width={16} height={16} />
         </div>
 
-
-
       </div>
-
-
 
       <div className={'credit-container'}>
         <div className={'split-line'}> </div>

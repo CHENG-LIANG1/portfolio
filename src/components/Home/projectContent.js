@@ -57,6 +57,7 @@ import shoeStyle1 from './images/球鞋样式图1.png';
 import shoeStyle2 from './images/球鞋样式图2.png';
 import shoeStyle3 from './images/球鞋样式图3.png';
 import shoeStyle4 from './images/球鞋样式图4.png';
+import ScrollToTop from "react-scroll-to-top";
 
 export const libContent =  <div className={'text-container'} >
   <div className={'divider'}></div>

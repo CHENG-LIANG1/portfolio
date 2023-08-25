@@ -2,19 +2,20 @@
 
 :root {
     --colorPrimary: #ed375a;
+  --textColor: #fff;
+  --bgColor: #111
 }
 
 
 body {
   font-family: 'Lato', sans-serif;
   font-size: 24px;
-  color: #fff;
+  color: var(--textColor);
   min-width: 400px;
   overflow-x: hidden;
 }
 
 .portfolio {
-    color: #fff;
     margin: auto;
     font-size: 36px;
     font-weight: bold;
@@ -96,8 +97,8 @@ body {
     transition: 0.3s ease-out;
   }
   .btn-2 span {
-    color: #fff;
-    border: 1px solid #fff;
+    color: var(--textColor);
+    border: 1px solid var(--textColor);
     transition: 0.2s;
   }  
   .btn-2 span:hover {
@@ -282,6 +283,14 @@ body {
 
 .icon-wrapper:hover {
   background-color: #ed375a;
+}
+
+.scroll-to-top {
+  background-color: #444 !important;
+}
+
+.scroll-to-top:hover {
+  background-color: #ed375a !important;
 }
 
 .footer-container {

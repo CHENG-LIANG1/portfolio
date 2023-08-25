@@ -7,6 +7,7 @@ import Typography from "@mui/material/Typography";
 import './project.css'
 import Slide from "@mui/material/Slide";
 import {createTheme, ThemeProvider} from "@mui/material";
+import ScrollToTop from "react-scroll-to-top";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -86,6 +87,8 @@ const ProjectCard = (props) => {
               I acknowledge the use of ChatGPT (https://chat.openai.com/) to refine my wording and grammar. The prompts used include:
               proofread
               check my grammar</div>
+
+
           </Dialog>
         </ThemeProvider>
 
