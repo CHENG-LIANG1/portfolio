@@ -7,12 +7,12 @@
 .divider {
   width: calc(100% - 400px);
   margin-left: 400px;
-  background-color: #fff;
+  background-color: var(--textColor);
   height: 2px;
 }
 
 .project-subtitle {
-  color: #fff;
+  color: var(--textColor);
   margin-left: 400px;
   font-size: 16px;
   font-weight: 600;
@@ -22,7 +22,7 @@
 .project-title {
   font-size: 48px;
   font-weight: 900;
-  color: #fff;
+  color: var(--textColor);
 
 }
 
@@ -32,7 +32,7 @@
 }
 
 .project-paragraph {
-  color: #fff;
+  color: var(--textColor);
   font-size: 20px;
   line-height: 28px;
   padding-left: 400px;
@@ -67,6 +67,7 @@
   width: 300px;
   margin: 8px;
   text-align: right;
+  color: var(--textColor);
 }
 
 .heading {
