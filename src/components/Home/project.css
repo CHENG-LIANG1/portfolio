@@ -132,7 +132,7 @@
   .project-title {
     font-size: 20px;
     width: calc( 100vw - 4rem);
-    padding: 1rem;
+    padding: 0.5rem;
   }
   .project-paragraph {
     padding-left: 8px;
