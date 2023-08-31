@@ -151,9 +151,34 @@ body {
       font-size: 24px;
     }
 
+    .email {
+      font-size: 18px !important;
+    }
+
+    .footer-text {
+      font-size: 16px !important;
+    }
+
     .intro-text {
       white-space: unset;
       text-align: left;
+    }
+
+    .footer-container {
+      width: 80% !important;
+      justify-content: center !important;
+    }
+
+    .contact-footer {
+      margin-left: 0 !important;
+    }
+
+    .icon-container {
+      justify-content: center !important;
+    }
+
+    .icon-wrapper img {
+      width: 24px !important;
     }
   }
 
